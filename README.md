@@ -21,12 +21,12 @@ Build a turn-based board game in JavaScript - project6 - frontend path by opencl
 
 <h4> Step3: Fight! </h4> 
 <ul>
-  <li>if players cross over adjacent squares (horizontally or vertically), a battle begins.</li>
+  <li>if players cross over adjacent squares (horizontally or vertically), a battle begins</li>
   <li>each player attacks in turn</li>
   <li>the damage depends on the player's weapon</li>
   <li>the player can choose to attack or defend against the next shot</li>
   <li>if the player chooses to defend themselves, they sustain 50% less damage than normal</li>
-  <li>ss soon as the life points of a player (initially 100) falls to 0, they lose. A message appears and the game is over.</li>
+  <li>ss soon as the life points of a player (initially 100) falls to 0, they lose. A message appears and the game is over</li>
 </ul>
 
 
