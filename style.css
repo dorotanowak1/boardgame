@@ -1,0 +1,172 @@
+ @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Inconsolata');
+ * {
+  font-family: 'IBM Plex Mono', monospace;
+  color:#0bef26;
+
+
+}
+
+
+body {
+  background-color: black;
+  margin: auto;
+}
+
+.container {
+  background-color: black;
+  margin-top: 20px;
+}
+
+#game {
+  background-image: url(img/grass.png);
+  display: grid;
+  grid-template-columns: repeat(10,68px);
+  grid-gap: 0px;
+  border: 3px solid black;
+  
+}
+
+#turn {
+  margin-top: 40px;
+  padding: 10px;
+  border: dashed 1px #ff1302;
+}
+
+.box {
+  padding: 30px;
+  font-size: 12px;
+  color: white;
+  
+}
+
+.grass {
+  background-image: url(img/grass.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+
+.stone {
+ background-image: url(img/stone.png);
+ background-repeat: no-repeat;
+ background-size: 57px;
+
+}
+
+.playerOne {
+  background-image: url(img/playerone.png);
+  background-repeat: no-repeat;
+  background-size: 60px;
+
+} 
+
+.playerTwo {
+  background-image: url(img/playertwo.png);
+  background-repeat: no-repeat;
+  background-size: 60px;
+}
+
+.weaponOne {
+  background-image: url(img/hammer.png);
+  background-repeat: no-repeat;
+  
+
+}
+
+.weaponTwo {
+  background-image: url(img/sward.png);
+  background-repeat: no-repeat;
+
+}
+
+.weaponThree {
+  background-image: url(img/axe.png);
+  background-repeat: no-repeat;
+
+}
+
+
+img {
+  height: 100px;
+  width: 80px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+button {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.defendMode {
+  border: 1px solid #4a733b;
+  border-radius: 10px;
+}
+
+
+#modebob, #modealice {
+  display: none;
+}
+
+@media only screen  and (min-width : 1224px) {
+  #game {
+
+    display: grid;
+    grid-template-columns: repeat(10,90px);
+    grid-gap: 0px;
+  }
+
+
+
+}
+
+@media only screen  and (min-width : 1824px) {
+
+
+
+  .container {
+    background-color: black;
+    margin-top: 40px;
+  }
+
+  #game {
+    background-image: url(img/grass.png);
+    display: grid;
+    grid-template-columns: repeat(10,98px);
+    grid-gap: 0px;
+    border: 3px solid black;
+    
+  }
+
+  #turn {
+    margin-top: 60px;
+    padding: 10px;
+    border: dashed 1px #ff1302;
+  }
+
+  .box {
+    padding: 50px;
+    font-size: 12px;
+    color: white;
+    background-image: url(img/grass.png);
+  }
+
+
+
+
+  #bob2 {
+    padding-top: 40px;
+  }
+
+  img {
+    width: 160px;
+    height: 200px;
+  }
+  * {
+    font-size: 30px;
+  }
+}
+

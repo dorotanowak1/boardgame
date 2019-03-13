@@ -1,0 +1,63 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+    	<title> Game </title>
+      <meta charset="utf-8">
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+      
+    </head>
+
+
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 col-lg-10" id="game"></div>
+          <div class="col-md-3 col-lg-2" id="output">
+            <h3 class="text-center" id="alice2"> ALICE </br> <img src="img/playerone.png"> </h3>
+            <p id="alice" class="text-center">
+              <h5 class="text-center" id="alicehealth"> HEALTH: 100% </h5>
+              <h5 class="text-center" id="aliceweapon"> WEAPON: punch </h5>
+              <h5 class="text-center" id="alicedamage"> DAMAGE: 2 </h5>
+              <h5 class="text-center" id="modealice"> Defend mode: ON </h5>
+
+            </p>
+            <h3 class="text-center" id="bob2"> BOB </br> <img src="img/playertwo.png"></h3>
+            <p id="bob" class="text-center">
+              <h5 class="text-center" id="bobhealth"> HEALTH: 100% </h5>
+              <h5 class="text-center" id="bobweapon"> WEAPON: punch </h5>
+              <h5 class="text-center" id="bobdamage"> DAMAGE: 2 </h5>
+              <h5 class="text-center" id="modebob"> DEFEND MODE: ON </h5>
+
+              
+            </p>
+            <h4 id="turn" class="text-center"></h4>
+            <div id="battle"  title="Battle">
+            </div>
+            <div id="gameover"  title="GAME OVER">
+              <p id="won"></p>
+            </div>
+          </div>
+          
+
+          <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+          <script
+          src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+          integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+          crossorigin="anonymous"></script>
+          <script type="text/javascript" src="js/weapon.js"></script>
+          <script type="text/javascript" src="js/player.js"></script>
+          <script type="text/javascript" src="js/board.js"></script>
+          <script type="text/javascript" src="js/display.js"></script>
+          <script type="text/javascript" src="js/main.js"></script>
+          <script type="text/javascript" src="js/fight.js"></script>
+
+
+        </body>
+        </html>
